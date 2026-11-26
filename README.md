@@ -1,52 +1,75 @@
 # IT Incident Troubleshooting Casebook
 
-A portfolio project demonstrating structured IT incident analysis, safe troubleshooting, and evaluation of AI-generated technical support.
+A practical portfolio showcasing enterprise IT troubleshooting, Windows infrastructure diagnostics, and evaluation of AI-generated technical support responses.
 
-> **Portfolio/demo disclaimer:** All incidents, organizations, users, hostnames, IP addresses, and outputs in this repository are fictional examples created for demonstration. They do not describe a real employer incident or contain confidential information.
+## About Me
 
-## Purpose
+I am an IT professional with 10–12 years of experience in IT operations, infrastructure support, and enterprise systems troubleshooting.
 
-This repository demonstrates how an IT support professional can:
+My experience includes:
 
-- turn an ambiguous user complaint into a structured incident;
-- form and test diagnostic hypotheses;
-- choose low-risk, evidence-led troubleshooting steps;
-- distinguish symptoms from root causes;
-- explain why a proposed fix is appropriate;
-- evaluate AI-generated support advice for accuracy and operational safety.
+- Windows Server and Active Directory
+- Remote Desktop Services (RDS)
+- Network and connectivity troubleshooting
+- VPS and server administration
+- SQL, SQLite, and MySQL
+- Python-based business data processing
 
-## Case studies
+I am particularly interested in applying practical IT knowledge to technical support evaluation, AI response quality assessment, and structured incident analysis.
 
-| ID | Scenario | Skills demonstrated |
+## Project Purpose
+
+This repository demonstrates how to:
+
+- Analyze technical incidents using a structured approach.
+- Identify symptoms, potential causes, and missing evidence.
+- Build logical troubleshooting procedures.
+- Prioritize safe, low-risk diagnostic actions.
+- Evaluate AI-generated technical recommendations.
+- Identify inaccurate, incomplete, or potentially dangerous solutions.
+
+## Case Studies
+
+| ID | Scenario | Technical Focus |
 |---|---|---|
-| 001 | Domain user cannot sign in; other users are affected intermittently | Windows domain concepts, DNS, network diagnostics, incident triage |
+| 001 | Intermittent Windows domain sign-in failures | Active Directory, DNS, networking, incident triage |
 
-## Evaluation framework
+## AI Response Evaluation Framework
 
-Each proposed support answer is assessed on:
+Each response is evaluated across five dimensions:
 
 1. Technical accuracy
-2. Diagnostic sequence and evidence
-3. Safety and change control
+2. Diagnostic reasoning
+3. Operational safety and change control
 4. Clarity and communication
-5. Completeness and verification
+5. Verification and incident closure
 
-See [`rubric.md`](rubric.md) and [`evaluations/001-response-review.md`](evaluations/001-response-review.md).
+See [Evaluation Rubric](rubric.md) and [Example Response Review](evaluations/001-response-review.md).
 
-## How to use this portfolio
+## What This Demonstrates
 
-1. Read the incident statement in `cases/`.
-2. Review the diagnostic plan and expected evidence.
-3. Compare a proposed AI response against the rubric.
-4. Explain which advice is useful, incomplete, or unsafe.
+- Practical enterprise IT troubleshooting knowledge.
+- Evidence-based technical reasoning.
+- Clear technical documentation.
+- Awareness of operational risks and security considerations.
+- Ability to assess AI-generated technical support responses.
 
-## Scope and honesty
+## Scope and Disclaimer
 
-This is a demonstration of troubleshooting reasoning and technical documentation. It is not a claim of expertise in Linux, Microsoft 365, Azure, MDM, or advanced PowerShell development. Commands are included as illustrative diagnostic examples and should be validated against the actual environment before use.
+All organizations, users, hostnames, IP addresses, incidents, and outputs in this repository are fictional examples created for demonstration.
 
-## Suggested future extensions
+This portfolio demonstrates troubleshooting reasoning and technical documentation. It does not claim professional expertise in Linux, Microsoft 365, Azure, or advanced PowerShell development.
 
-- Add a Remote Desktop Services connectivity case.
-- Add a SQL application connectivity case.
-- Add a Windows DNS/DHCP case.
-- Add automated checks for case-file formatting or rubric scoring.
+## Portfolio Roadmap
+
+Planned additions:
+
+- Remote Desktop Services connectivity troubleshooting.
+- SQL application connectivity and database troubleshooting.
+- Windows DNS and DHCP diagnostics.
+- Automated incident evaluation and rubric scoring.
+
+---
+
+**Focus:** Enterprise IT Support · Windows Infrastructure · Technical Troubleshooting · AI Response Evaluation
+
